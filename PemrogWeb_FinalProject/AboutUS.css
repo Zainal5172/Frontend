@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif, 'Inter';
+}
+
+body {
+    background-color: #fff;
+    min-height: 200vh;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    color: #E4C59E;
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+}
+
+.user-links {
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.user-links a {
+    color: #333;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.search-bar {
+    text-align: center;
+    position: flex;
+}
+
+.search-bar input[type="text"] {
+    width: 600px; /* Lebar input searchbar */
+    padding: 10px; /* Padding di dalam input */
+    border: 2px solid #E4C59E; /* Menambahkan border dengan warna #E4C59E */
+    border-radius: 10px; /* Untuk membuat sudut input menjadi melengkung */
+    outline: none; /* Menghilangkan outline saat input aktif */
+}
+
+.banner{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    background-image: url(Images/AboutUS.png);
+    background-size: cover;
+    padding-top: 0;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding: 0px;
+}
+
+.col1{
+    text-align: center;
+    padding: 20px;
+    background-color: #E4C59E;
+    opacity: 100%;
+}
+
+.col1 a{
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.col1 a:hover{
+    background-color: #f0f0f0;
+}
+
+.content{
+    background-color: #FFF8EF;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.content a{
+    color: #AF8260;
+    margin-left: 10px;
+    font-size: small;
+}
+.content h2{
+    margin: auto;
+    color: #9B9B9B;
+    text-align: center;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.paragraph{
+    background-color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+.footer {
+    background-color: #FFF8EF;
+    color: #333;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-left {
+    flex: 1;
+}
+
+.footer-left p{
+    color: #9B9B9B;
+}
+
+.footer-logo img {
+    width: 170px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.footer-center,
+.footer-right {
+    flex: 1;
+}
+
+.useful-links,
+.idea-advice,
+.payment-methods {
+    align-self: flex-start;
+    margin-top: 90px;
+    margin-left: 50px;
+}
+
+.useful-links,
+.idea-advice{
+    display: inline-block;
+    margin-right: 30px;
+
+}
+
+.useful-links a,
+.idea-advice a {
+    margin-top: 20px;
+    color: #9B9B9B;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.payment-methods {
+    margin-top: 90px;
+}
+
+.payment-methods img {
+    width: 200px;
+    margin-right: 10px;
+}
